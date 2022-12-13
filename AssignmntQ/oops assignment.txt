@@ -1,0 +1,54 @@
+[23-08 14:45] Jaynam SanghviJava OOPS Questions
+    
+
+1.Create a class Person with following member and setter getter for them. Pid, pname, paddress,dob all are private. Now Person class will be inherit by the Employee class will have following fields salary, date_of_joining, base_location, deptobj, contactno, emailid. Department class will have following member, deptid, and dname. Customer class also inherit the Person class, it also has following fields: -  date_of_registration, delivery_address, contactno, email_id. Setter and getter methods for all class variables should be declared.
+Now you have to create object of Employee class and Customer class. With the help of super keyword initialize the person class data members as they are protected. Create array of object of department class and while creating the object of the Employee class we will pass object of that particular department. 
+
+Now print all details of the Customer and Employee. 
+
+2.Create class/interface Shape which will have only one method area. Create class Triangle, Square and Rectangle all will extends/implements Shape. In class Triangle, Square and Rectangle depending upon the number of sides you have to react the co-ordinates of the vertex. For example triangle  having three vertex so name each vertex A,B and C. now you have to read the x & y co-ordinates of A,B and C, after that you have find the distance between the vertex A, B and C after this you have to calculate the Area and print Area. Same process will be applied while calculating area of Square and Rectangle. 
+	
+3.Create Class Customer which will have following class members: - CustId, accountno, custname, cust_address, cust_dob, cust_account_opening_date, Branch_Obj. 
+
+
+Class Branch  :- branch_id, branch_name, branch_address.
+
+Class Customer_Account_Statement:-  CAID, CustId, amount, deposit_withdrawl, deposit_date. 
+
+ Now you have to create Customer, Branch and CustomerAccountStatement class object. CustomerAccountStatement will have multiple records as one customer will deposit and withdrawal the amount. So you need to print the statement as per the CustomerId.
+
+What is expected:- you will create multiple object of customer class. Also you have to create multiple object of the CustomerAccountStatement and while printing detail of CustomerAccountStatement you have to print detail of Customer. 
+
+
+	
+4.Create a class Area in which user will be asked to input the sides of shape. User will be asked to input three sides of shape. If user input two sides of shape same, you have to print area of square for that side. With 3 inputs you have to print area of rectangle in combination. With 3 sides you have to print the area of triangle. Also check the given three sides are belong to right angle triangle or not. 
+	
+5.Create class CalcAbs which is an abstract class it will have following methods:- void sum(int a, int b); void sub(int a, int b), void mul(int a, int b), void div(int a,int b). You have to perform multilevel inheritance where at each level one method of CalcAbs will be overridden by the child class for example:-
+
+
+
+Class CalcAbs
+
+Clsss A extends CalcAbs {​​​​​​​​ it will override sum}​​​​​​​​
+
+Class B extends A {​​​​​​​​it will override sub}​​​​​​​​
+
+Class C extends B {​​​​​​​​it will override mul}​​​​​​​​
+
+Class D extends C {​​​​​​​​it will override div}​​​​​​​​
+
+At the fourth level you have to create object and call all methods and print the results for all operations. 
+
+
+	
+6.With the help of method overriding create two functions which will find the maximum of 3 and 4 numbers. Also write one generic function which can find maximum of N numbers.
+	
+7.With the help of method overriding perform the string comparison. User will input two string and your task is to compare both the string one alphabets at a time. 
+	
+8.With the help of finalize method print the how many objects are currently a class is having and which object is going to be freed from the memory with its hashcode. 
+	
+9.WAP to demonstrate the use of clone method. Clone one object of Product class :- pid, pname, price and unitOfMeasurement. When you clone object of class Product  change the product name and price.  With the help of instanceOf check that the newly created object is belong to Product class or not.
+	
+10.WAP to print the object of Employee class with the help of toString method. Employee class fields :- empid, empname, empsalary, empaddress, emp_dob, emp_doj. use Date class to store the date of birth(dob) and date of joining(doj). 
+
+

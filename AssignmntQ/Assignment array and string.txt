@@ -1,0 +1,46 @@
+NOTE: Use of inbuilt function is not allowed.
+
+Topic String:-
+
+
+	
+1  Create a program in which two string is input by the user and after that user will enter index in first string where we want to insert the second string and insert the second string at that index and create a new string 
+	
+2   WAP to print the all alphabets of string in ascending and descending order.
+	
+3   WAP to remove all the vowels from the given string.
+	
+4   WAP to print the number of alphabets repeated in the given string.
+	
+5   WAP to demonstrate which is fast in processing StringBuilder or StringBuffer
+	
+6   WAP to demonstrate how memory is allocated to string objects in memory heap and string constant pool.
+	
+7   WAP to demonstrate how garbage collector work when any memory is not referenced by string object.
+
+
+Topic Array:
+
+1    WAP to find third maximum number from list of numbers.
+	
+2    WAP to find duplicate numbers and there counting from list of numbers.
+	
+3    WAP to create a dynamic array. Dynamic Array means when user want to input the number more than size of array it will increase the size of array without throwing exception.
+	
+      An Array contain the n numbers you have to find out combination which satisfy Pythagoras Template. ( Pythagoras templates:- 3*3+4*4==5*5)
+	
+4     An Array Contain different numbers you have to find how many are even, odd, perfect and prime 
+	
+5     Suppose that you are having an array of size N. now your task is to sort the half array that is from 0 to N/2 in ascending order and N/2+1 to N in descending order. 
+	
+6     WAP to find the LCM and HCF of array numbers.
+	
+7     You are given a sequence of Character in the form of Array. Now you have to put all vowels and consonants together in the array.
+	
+8      User will enter the element in M*M order matrix that is square matrix now you have to print first row, last row, first column, and last column elements. Code should be applicable for matrix of any order.
+	
+       You are having array of strings. Now you have to arrange strings in array on the basis of the length of each string. Smallest string will be first and so on. 
+	
+9      WAP to remove the String which is not palindrome string from the array of String.
+	
+10     WAP to sort array on the basis of unit place. For example we are having following numbers:- 10,2,3,41,12,13,19,81,9. Output will be 10,41,81,2,12,3,13,19,9.
